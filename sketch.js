@@ -38,7 +38,7 @@ function setup(){
 
     bird = new Bird(100,100);
 
-    slingShot = new Slingshot(bird.body,{x:200, y:100});
+    slingShot = new Slingshot(bird.body,{x:200, y:50});
 }
 
 function draw(){
